@@ -1,0 +1,16 @@
+opam-version: "2.0"
+name: "gmp"
+authors: ["David Monniaux"]
+maintainer: "Enrike Champion <enrikechampion@gmail.com"
+homepage: "https://github.com/monniaux/mlgmp"
+dev-repo: "git+https://github.com/EnrikeChampion/opam-mlgmp.git"
+bug-reports: "https://github.com/bugseng/ppl/issues"
+depends: [
+  "ocaml" {>= "5.0.0"}
+]
+build: [
+  [make]
+]
+install: [
+  [make "install"]
+]
