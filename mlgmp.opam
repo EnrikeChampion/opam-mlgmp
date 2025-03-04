@@ -1,10 +1,14 @@
 opam-version: "2.0"
-name: "gmp"
+name: "mlgmp"
+synopsis:
+  "GMP library for OCaml"
+description:
+  "An interface between OCaml and GMP (multiprecision library)."
 authors: ["David Monniaux"]
 maintainer: "Enrike Champion <enrikechampion@gmail.com"
 homepage: "https://github.com/monniaux/mlgmp"
 dev-repo: "git+https://github.com/EnrikeChampion/opam-mlgmp.git"
-bug-reports: "https://github.com/bugseng/ppl/issues"
+bug-reports: "https://github.com/EnrikeChampion/issues"
 depends: [
   "ocaml" {>= "5.0.0"}
 ]
